@@ -20,14 +20,14 @@ Step 2: Compile Java program in Linux
 
 You need to have a Java program file for this reason. Let’s say you create a new Java program file named file_name.java
 
-You can use Nano editor in terminal or Gedit graphical text editor for writing your Java programs.
+You can use Nano editor, Vim, Vi and etc.. in terminal or Gedit graphical text editor for writing your Java programs.
 
-javac file_name.java
+$ javac file_name.java
 
 Step 3: Run the Java class file
 
 You do not need to specify the class extension here. Just the name of the class. And this time, you use the command java, not javac.
 
-java class_name
+$ java class_name
 
 
