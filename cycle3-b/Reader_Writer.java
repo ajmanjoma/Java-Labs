@@ -12,7 +12,7 @@ class cycl41{
    
     public static void main(String args[]){
     try{
-        Reader r = new FileReader("/home/mec/manikandan/cycle4/hello.txt");
+        Reader r = new FileReader("pqr.txt");
         int ch;
         ch = r.read();
         while(ch!=-1)
@@ -23,19 +23,18 @@ class cycl41{
         System.out.println(" ");
         r.close();
     }
-catch(Exception e)
-
-    System.out.println("program executed" +e);
-}
-try{
-    Writer w = new FileWriter("/home/mec/manikandan/cycle4/hello.txt");
-    String s = "This is changed file";
-    w.write(s);
-    w.close();
-    System.out.println("file written");
-}
-catch(Exception e){
-    System.out.println(" program executed");
-}
+    catch(Exception e){
+      System.out.println("program executed" +e);
+    }
+    try{
+      Writer w = new FileWriter("pqr.txt");
+      String s = "This is changed file";
+      w.write(s);
+      w.close();
+      System.out.println("file written");
+   }
+   catch(Exception e){
+      System.out.println(" program executed");
+   }
 }
 
