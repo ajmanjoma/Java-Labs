@@ -28,7 +28,5 @@ public class Garbage {
         System.out.println("Memory after object creation: " + memoryAfterObjectCreation);
         System.out.println("Memory after object set to null: " + memoryAfterObjectSetToNull);
         System.out.println("Memory after garbage collection: " + memoryAfterGarbageCollection);
-    }
-} {
-    
+    }           
 }
