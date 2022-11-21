@@ -26,7 +26,7 @@ $ javac file_name.java
 
 Step 3: Run the Java class file
 
-You do not need to specify the class extension here. Just the name of the class. And this time, you use the command java, not javac.
+You do not need to specify the class extension here. Just the name of the class. And this time, you use the command java, not javac, no need of ".class" only class name.
 
 $ java class_name
 
